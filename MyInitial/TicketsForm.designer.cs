@@ -56,6 +56,7 @@
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(91, 20);
             this.txtQuantity.TabIndex = 1;
+            this.txtQuantity.TextChanged += new System.EventHandler(this.txtQuantity_TextChanged);
             // 
             // lblAmountDue
             // 
@@ -114,6 +115,16 @@
             this.radBox.Size = new System.Drawing.Size(73, 17);
             this.radBox.TabIndex = 8;
             this.radBox.Text = "Box Seats";
+            this.radBox.UseVisualStyleBackColor = true;
+            // 
+            // radBackStall
+            // 
+            this.radBox.AutoSize = true;
+            this.radBox.Location = new System.Drawing.Point(26, 86);
+            this.radBox.Name = "radBackStall";
+            this.radBox.Size = new System.Drawing.Size(73, 17);
+            this.radBox.TabIndex = 9;
+            this.radBox.Text = "Back Stall";
             this.radBox.UseVisualStyleBackColor = true;
             // 
             // grpSection
